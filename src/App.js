@@ -38,7 +38,7 @@ function App() {
             <p>{data.name}</p>
           </div>
           <div className='temp'>
-            {data.main ? <h1>{data.main.temp}F</h1> : null}
+            {data.main ? <h1>{data.main.temp}°F</h1> : null}
 
           </div>
           <div className='description'>
@@ -50,7 +50,7 @@ function App() {
 
           <div className='bottom'>
             <div className='feels'>
-              {data.main ? <p className='bold'>{data.main.feels_like} F</p> : null}
+              {data.main ? <p className='bold'>{data.main.feels_like}°F</p> : null}
               <p>Feels like</p>
             </div>
             <div className='humidity'>
